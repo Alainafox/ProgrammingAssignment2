@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## #Almost the same as makevector
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -15,11 +15,11 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get,
              setinverse = setinverse,
              getinverse = getinverse)
-        #Almost the same as makevector
+        
 
 }
 
-## Write a short comment describing this function
+## #Almost the same as cachemean
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
